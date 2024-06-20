@@ -32,7 +32,10 @@ function Konversi_C_F(celcius) {
 
 function Konversi_F_C(fahrenheit) {
     let celcius = (parseFloat(fahrenheit) - 32) * 5 / 9;
+
     let rumus = `(${fahrenheit} - 32) * 5 / 9 = ${celcius.toFixed(2)}`;
+
     rumusElement.textContent = rumus;
+    
     return `Hasil konversi adalah: ${celcius.toFixed(2)}°C`;
 }

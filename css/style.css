@@ -58,6 +58,7 @@ body {
     #ffe6e6 100%
   );
   gap: 200px;
+  /* background-color: #9a9a9a6e; */
 }
 .container {
   display: flex;
